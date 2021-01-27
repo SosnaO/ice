@@ -1,3 +1,8 @@
+ul {
+  list-style: none;
+  padding: 0px;
+}
+
 .container {
   @media screen and (min-width: 320px) {
     width: 320px;
@@ -33,7 +38,7 @@
 .hero {
   @media screen and (max-width: 767px) {
     background: #ffb8ca;
-    height: 399px;
+    height: 502px;
     margin-left: auto;
     margin-right: auto;
     background-repeat: no-repeat;
@@ -41,19 +46,19 @@
     background-position: center;
   }
   &-title {
-    width: 162px;
-    height: 80px;
-    left: 34px;
-    top: 102px;
-
+    width: 218px;
+    height: 106px;
+    left: 20px;
+    top: 193px;
+    padding-top: 163px;
+    padding-bottom: 19px;
     font-family: Titan One;
     font-style: normal;
     font-weight: normal;
-    font-size: 22px;
-    line-height: 1.13;
+    font-size: 26px;
+    line-height: 1.15;
     letter-spacing: 0.04em;
     text-transform: uppercase;
-
     color: #ffffff;
   }
 
@@ -67,4 +72,52 @@
     text-transform: uppercase;
     color: #d41443;
   }
+}
+
+.button {
+  @media screen and (max-width: 767px) {
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+  }
+}
+
+.name-product {
+  width: 62.4px;
+  height: 24px;
+  left: 20px;
+  top: 318px;
+  margin-right: 8px;
+
+  background: #d41443;
+  border-radius: 20px;
+}
+.link-product {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 8px;
+  line-height: 10px;
+  text-align: center;
+
+  color: #ffffff;
+}
+.name-made {
+  width: 82.8px;
+  height: 24px;
+  left: 90.4px;
+  top: 318px;
+
+  background: #ffffff;
+  border-radius: 20px;
+}
+.link-made {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 8px;
+  line-height: 10px;
+  text-align: center;
+
+  color: #d41443;
 }
